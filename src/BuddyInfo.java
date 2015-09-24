@@ -7,7 +7,7 @@ public class BuddyInfo {
 	public static void main(String[] args) {
 		
 		BuddyInfo b = new BuddyInfo();
-		b.setName("Homer S");
+		b.setName("Homer");
 		System.out.println("Hello " + b.getName());
 	}
 	
