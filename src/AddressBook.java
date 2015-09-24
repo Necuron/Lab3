@@ -6,7 +6,10 @@ public class AddressBook {
 	
 	public void addBuddy(BuddyInfo contact)
 	{
-		l.add(contact);
+		if (contact != null)
+		{
+			l.add(contact);
+		}
 	}
 	
 	public void removeBuddy(BuddyInfo contact)
